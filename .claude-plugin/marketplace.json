@@ -1,0 +1,5 @@
+{
+  "name": "progress-pane",
+  "owner": { "name": "ryohashikawa221-lgtm" },
+  "plugins": [{ "name": "progress-pane", "source": "./" }]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "progress-pane",
+  "version": "0.1.0",
+  "description": "作業の進行状況（段のバー）と週の使用量の残りを、横の枠と入力欄の下の 1 行に出す",
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "statusFile": {
+      "type": "string",
+      "title": "進行状況のファイル",
+      "description": "読む JSON の場所。空なら ~/.claude/progress/STATUS.json",
+      "default": ""
+    }
+  },
+  "author": {
+    "name": "ryohashikawa221-lgtm"
+  }
+}
